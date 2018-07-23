@@ -1,4 +1,4 @@
-# Splurty Application README
+# Grammable Application README
 
 -Grammable is a twitter and instagram-like app that allows for user creation of microposts, with followers and comments.
   
