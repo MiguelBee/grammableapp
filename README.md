@@ -1,24 +1,29 @@
-# README
+# Splurty Application README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-Grammable is a twitter and instagram-like app that allows for user creation of microposts, with followers and comments.
+  
+## Getting started
 
-Things you may want to cover:
+To get started with the app, clone the repo and then install the needed gems:
 
-* Ruby version
+```
+$ bundle install
+```
 
-* System dependencies
+Next, migrate the database:
 
-* Configuration
+```
+$ rails db:migrate
+```
 
-* Database creation
+Finally, run the test suite to verify that everything is working correctly:
 
-* Database initialization
+```
+$ rails test
+```
 
-* How to run the test suite
+If the test suite passes, you'll be ready to run the app in a local server:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails server
+```
